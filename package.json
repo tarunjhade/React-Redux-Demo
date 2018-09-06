@@ -7,7 +7,7 @@
     "open:src": "babel-node tools/server.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter progress tools/test.js \"src/**/*.spec.js\"",
+    "test": "mocha --reporter spec tools/test.js \"src/**/*.spec.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Tarun Jhade",
